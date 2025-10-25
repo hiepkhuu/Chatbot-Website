@@ -44,7 +44,9 @@ const App = () => {
         <Sidebar setCurrentPage={setCurrentPage} />
         <div className='content'>
           {renderPage()}
-          {/* TODO: create the chatbox component!!! :(  */}
+          {/* TODO: create the chatbox component!!! :(  
+              we should hide the button so user doesn't try to click it
+          */}
           <button className='chatbox-btn'>open chat</button>
         </div>
       </div>
